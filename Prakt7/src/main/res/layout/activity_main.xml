@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewInequality"
+        android:layout_width="41dp"
+        android:layout_height="32dp"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineGor"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumberB"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberB"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:text=""
+        android:hint="@string/b"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineGor"
+        app:layout_constraintStart_toEndOf="@+id/textViewX"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberA"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:text=""
+        android:hint="@string/a"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineGor"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVert"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="406dp"
+        android:layout_height="48dp"
+        android:text="@string/calculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult" />
+
+    <TextView
+        android:id="@+id/textViewX"
+        android:layout_width="53dp"
+        android:layout_height="32dp"
+        android:text="@string/x"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineGor"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumberA"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="103dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineGor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="123dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineGor" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/send"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalculate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

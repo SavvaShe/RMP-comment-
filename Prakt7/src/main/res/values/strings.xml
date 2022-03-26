@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Prakt7</string>
+    <string name="calculate">Calculate</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="x">x+</string>
+    <string name="_0"><![CDATA[<=0]]></string>
+    <string name="AllInf">(-∞,+∞)</string>
+    <string name="noSolutions">no solutions</string>
+    <string name="minusInf">(-∞,</string>
+    <string name="PlusInf">,+∞)</string>
+    <string name="squareBracketOpen">[</string>
+    <string name="squareBracketClose">]</string>
+    <string name="MinusInfZero">(-∞,0]</string>
+    <string name="InfZero">[0,+∞)</string>
+    <string name="ErrB">Incorrect number entered b</string>
+    <string name="ErrA">Incorrect number entered a</string>
+    <string name="OverflowDouble">OverflowDouble</string>
+    <string name="send">Send</string>
+</resources>

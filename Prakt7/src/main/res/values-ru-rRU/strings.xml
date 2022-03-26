@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prakt7</string>
+    <string name="calculate">Вычислить</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="x">x+</string>
+    <string name="_0"><![CDATA[<=0]]></string>
+    <string name="AllInf">(-∞,+∞)</string>
+    <string name="noSolutions">Нет решений</string>
+    <string name="minusInf">(-∞,</string>
+    <string name="PlusInf">,+∞)</string>
+    <string name="squareBracketOpen">[</string>
+    <string name="squareBracketClose">]</string>
+    <string name="MinusInfZero">(-∞,0]</string>
+    <string name="InfZero">[0,+∞)</string>
+    <string name="ErrB">Неверно введено число b</string>
+    <string name="ErrA">Неверно введено число a</string>
+    <string name="OverflowDouble">Переполнение Double</string>
+    <string name="send">Отправить</string>
+</resources>
