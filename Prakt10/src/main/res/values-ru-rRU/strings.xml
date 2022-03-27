@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Практическая 10</string>
+    <string name="stop">Остановить</string>
+    <string name="start">"Начать "</string>
+    <string name="error">Некоректное значение</string>
+</resources>
